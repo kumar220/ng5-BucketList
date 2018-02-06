@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ng5
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# ng5-BucketList
+A bucket list application which adds and remove list to do with new angular 5 framework along with angular 5 animations and forms and more to come with time
+>>>>>>> 1365740850f7e00cf312fe3c073c6ac9bc96d558
