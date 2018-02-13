@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, transition, animate, keyframes, query, stagger } from '@angular/animations';
 import { DataService } from '../data.service';
+// import {ExpansionOverviewExample} from './collapse.component';
 
 @Component({
   selector: 'app-home',
@@ -35,6 +36,7 @@ export class HomeComponent implements OnInit {
     btnText: string = 'Add an item';
     goalText: string = 'My First Life goal';
     goals = [];
+    //public isCollapsed = false;
 
     constructor(private _data: DataService) { }
 

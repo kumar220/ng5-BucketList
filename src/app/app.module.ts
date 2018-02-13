@@ -9,19 +9,22 @@ import { DataService } from './data.service';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+// import {ExpansionOverviewExample} from './home/collapse.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+      AboutComponent,
+     // ExpansionOverviewExample,
   ],
   imports: [
     BrowserModule,
       AppRoutingModule,
       FormsModule,
-      BrowserAnimationsModule
+      BrowserAnimationsModule,
+      // ExpansionOverviewExample,
   ],
   providers: [DataService],
   bootstrap: [AppComponent]
